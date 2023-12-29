@@ -24,14 +24,16 @@
 
 2. در بخش دوم، در کد اولیه یک فیبوناچی در عبارت unoptimized نوشتیم که به صورت بازگشتی ۴۰ عدد اول فیبوناچی را بدست می آورد. مصرف cpu و مموری و کاهش در تصاویر زیر قابل رویت است.
    
-![Image 1](./assets/Image-1.png)
+<img width="1321" alt="image" src="https://github.com/Negarnbkhti42/SE-Lab-profiling/assets/62252489/d8adfaed-3edc-4ba4-a86f-13c72c7614b6">
 
+<img width="1072" alt="image" src="https://github.com/Negarnbkhti42/SE-Lab-profiling/assets/62252489/e71c7c11-68dc-4b0c-a648-b9f4b1e58680">
 
-![Image 2](./assets/Image-2.png)
 
 برای optimized کردن آن به جای استقاده از recursive از dynamic programming استفاده می‌کنیم. به گونه ای که مقادیر قبلی را در  hashmap ذخیره می کنیم که به آن ها دسترسی وجود داشته باشد. مقادیر استفاده از منابع و کاهش در این حالت نیز به شرح زیر است. 
 
-![Image 3](./assets/Image-3.png)
+<img width="1072" alt="image" src="https://github.com/Negarnbkhti42/SE-Lab-profiling/assets/62252489/1b4a94c6-5a92-470f-ba8f-8995c738c213">
 
-![Image 4](./assets/Image-4.png)
+
+<img width="1072" alt="image" src="https://github.com/Negarnbkhti42/SE-Lab-profiling/assets/62252489/623ac1e5-3562-4430-a004-6982470071a0">
+
 
