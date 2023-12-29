@@ -22,10 +22,16 @@
 
 ![optimized JavaCup memory](./assets/javacup-optimized-memory.png)
 
-2. در بخش دوم، در کد اولیه یک فیبوناچی در عبارت unoptimized نوشتیم که به صورت بازگشتی ۴۰ عدد اول فیبوناچی را بدست می آورد. مصرف cpu و مموری و کاهش در تصاویر زیر قابل رویت است. 
-![Image-1](./assets/Image-1.png)
-![Image-2](./assets/Image-2.png)
+2. در بخش دوم، در کد اولیه یک فیبوناچی در عبارت unoptimized نوشتیم که به صورت بازگشتی ۴۰ عدد اول فیبوناچی را بدست می آورد. مصرف cpu و مموری و کاهش در تصاویر زیر قابل رویت است.
+   
+![Image 1](./assets/Image-1.png)
+
+
+![Image 2](./assets/Image-2.png)
+
 برای optimized کردن آن به جای استقاده از recursive از dynamic programming استفاده می‌کنیم. به گونه ای که مقادیر قبلی را در  hashmap ذخیره می کنیم که به آن ها دسترسی وجود داشته باشد. مقادیر استفاده از منابع و کاهش در این حالت نیز به شرح زیر است. 
-![Image-3](./assets/Image-3.png)
-![Image-4](./assets/Image-4.png)
+
+![Image 3](./assets/Image-3.png)
+
+![Image 4](./assets/Image-4.png)
 
